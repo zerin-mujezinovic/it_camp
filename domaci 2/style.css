@@ -1,0 +1,88 @@
+.main-div {
+    display: inline-block;
+    margin: 40px;
+}
+.container1 {
+    height: 260px;
+    width: 540px;
+    border-bottom: 1.5px solid rgb(229 231 235);
+}
+.category {
+    display: inline;
+    background-color: rgb(238 242 255);
+    padding: 6px;
+    color: rgb(99 102 243);
+    border-radius: 5px;
+}
+.naslov {
+    width: 80%;
+    font-family: sans-serif;
+}
+.txt1 {
+    font-family: sans-serif;
+    line-height: 20px;
+    padding-bottom: 5px;
+    color: rgb(75 85 99);
+}
+.txt2 {
+    font-family: sans-serif;
+    line-height: 20px;
+    padding-bottom: 5px;
+    color: rgb(75 85 99);
+    padding-bottom: 23px;
+}
+.info {
+    display: inline;
+    color: rgb(99 102 241);
+    font-family: sans-serif;
+    padding-right: 10px;
+}
+.arrow {
+    display: inline;
+    color: rgb(99 102 241);
+    padding-right: 325px;
+}
+.eye {
+    color: rgb(156 172 203);
+    display: inline;
+}
+.gledaoci {
+    display: inline;
+    font-family: sans-serif;
+    color: rgb(156 172 203);
+    padding-right: 10px;
+    border-right: 2px solid rgb(229 231 235);
+}
+.msg {
+    display: inline;
+    color: rgb(156 172 203);
+    padding-left: 10px;
+}
+.poruke {
+    display: inline;
+    color: rgb(156 172 203);
+}
+.container2 {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgb(248 248 250);
+    margin-top: 15px;
+}
+.name {
+    display: inline-block;
+    width: 200px;
+    margin: 0px;
+    padding-left: 55px;
+    padding-top: 8px;
+    font-family: sans-serif;
+}
+.job {
+    display: inline-block;
+    width: 200px;
+    margin: 0px;
+    padding-left: 55px;
+    font-family: sans-serif;
+    color: rgb(156 163 175);
+}

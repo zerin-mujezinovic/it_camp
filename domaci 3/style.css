@@ -1,0 +1,50 @@
+.main-container {
+    margin: auto;
+    width: 95%;
+    margin-top: 35px;
+    border-bottom: 2px solid rgb(243 244 246);
+    padding-bottom: 15px;
+}
+.treci {
+    border-bottom: none;
+}
+.container1 {
+    width: 230px;
+    display: inline-block;
+    vertical-align: top;
+}
+.category {
+    margin: 0;
+    font-family: sans-serif;
+    padding-bottom: 7px;
+}
+.datum {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgb(151 146 149);
+}
+.container2 {
+    display: inline-block;
+    width: 1000px;
+}
+.naslov {
+    margin: 0;
+    font-family: sans-serif;
+}
+.txt {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgb(118 113 116);
+}
+.info {
+    display: inline-block;
+    color: rgb(99 102 241);
+    padding-right: 10px;
+    font-family: sans-serif;
+}
+.strela {
+    display: inline-block;
+    color: rgb(99 102 241);
+}
