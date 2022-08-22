@@ -1,0 +1,69 @@
+.main-container {
+    margin: auto;
+    padding-top: 30px;
+}
+.left {
+    position: relative;
+    display: inline-block;
+    width: 39%;
+    vertical-align: top;
+}
+.stepovi {
+    position: relative;
+    display: inline-block;
+}
+.step {
+    position: relative;
+    padding-left: 100px;
+    display: block;
+    height: 130px;
+}
+.linija {
+    position: relative;
+    display: inline-block;
+    width: 4px;
+    height: 130px;
+    background-color: rgb(229 231 235);
+}
+.krug {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    display: inline-block;
+    background-color: rgb(99 102 241);
+    border-radius: 50%;
+    left: -15px;
+}
+.zadnji {
+    left: 84px;
+}
+.ikona {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    left: 9px;
+    top: 10px;
+}
+.naslov {
+    display: inline-block;
+    vertical-align: top;
+    width: 76%;
+    margin: 0;
+    font-family: sans-serif;
+    padding-left: 30px;
+    line-height: 23px;
+}
+.txt {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb(75 85 99);
+}
+.right {
+    display: inline-block;
+    width: 50%;
+    background-color: #e7e7e9;
+    height: 610px;
+    padding-right: 10px;
+    border-radius: 3px;
+}
