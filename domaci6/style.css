@@ -1,0 +1,144 @@
+.main-container {
+    font-family: sans-serif;
+}
+.container1 {
+    margin: 60px 0px;
+}
+.naslov {
+    text-align: center;
+    margin: 0;
+}
+.txt {
+    text-align: center;
+    margin: 20px 0px;
+    color: rgb(107 114 128);
+}
+.mini-div {
+    margin: auto;
+    display: inline-block;
+    border: 2px solid rgb(99 102 241);
+    border-radius: 5px;
+    margin-left: 580px;
+}
+.monthly {
+    display: inline-block;
+    background-color: rgb(99 102 241);
+    padding: 5px 15px;
+}
+.monthly-txt {
+    color: white;
+    margin: 0;
+    display: inline-block;
+    font-size: 15px;
+}
+.annually {
+    display: inline-block;
+    padding: 5px 15px;
+}
+.annually-txt {
+    margin: 0;
+    display: inline-block;
+    font-size: 15px;
+    color: rgb(75 85 99);
+}
+.card {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    width: 250px;
+    height: 325px;
+    border: 2px solid rgb(209 213 219);
+    border-radius: 10px;
+    margin: 17px;
+}
+.drugi {
+    border: 2px solid rgb(99 102 241);
+}
+.popular {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    padding: 5px 10px;
+    border-radius: 0px 5px;
+    background-color: rgb(99 102 241);
+}
+.popular-txt {
+    margin: 0;
+    color: white;
+    font-size: 12px;
+}
+.start {
+    border-bottom: 1px solid rgb(229 231 235);
+    margin-bottom: 20px;
+}
+.start-txt {
+    font-size: 15px;
+    color: rgb(75 85 99);
+    margin: 0;
+}
+.cena {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 0px;
+}
+.mesecno {
+    display: inline-block;
+    color: rgb(107 114 128);
+    margin: 0;
+    vertical-align: top;
+    margin-top: 18px;
+}
+.card-info {
+    margin-bottom: 10px;
+    height: 140px;
+}
+.ikona {
+    display: inline-block;
+    color: rgb(156 163 175);
+}
+.card-txt {
+    display: inline-block;
+    margin: 0;
+    margin-right: 70px;
+    padding-bottom: 10px;
+    color: rgb(91, 95, 102);
+}
+.zadnji {
+    margin-right: 40px;
+}
+.dugme {
+    border: none;
+    background-color: rgb(156 163 175);
+    border-radius: 5px;
+    padding: 0;
+    padding: 10px 20px;
+    width: 100%;
+}
+.dugme:hover {
+    background-color: rgb(114, 119, 128);
+}
+.drugo {
+    background-color: rgb(99 102 241);
+}
+.drugo:hover {
+    background-color: rgb(62, 63, 148);
+}
+.dugme-txt {
+    margin: 0;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    margin-right: 148px;
+}
+.strela {
+    display: inline-block;
+    color: white;
+    text-align: right;
+}
+.mini-txt {
+    margin: 0;
+    font-size: 12px;
+    width: 85%;
+    color: rgb(107 114 128);
+    margin-top: 10px;
+}
