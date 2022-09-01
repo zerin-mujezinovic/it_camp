@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: black;
+}
+.container {
+    height: 70vh;
+    aspect-ratio: 1/1;
+    background-color: white;
+    overflow: hidden;
+    padding: 50px;
+}
+.krug {
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    background-color: aqua;
+    transform: translateY(-850%);
+    animation-name: example;
+    display: inline-block;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.krug+.krug {
+    margin-left: 20px;
+}
+@keyframes example {
+    0% {
+        transform: translateY(-850%);
+    }
+    75% {
+        transform: translateY(850%);
+    }
+    100% {
+        transform: translateY(750%);
+    }
+}
+.krug:nth-child(1) {
+    background-color: chocolate;
+}
+.krug:nth-child(2) {
+    background-color: yellow;
+    animation-delay: 0.1s;
+}
+.krug:nth-child(3) {
+    background-color: blueviolet;
+    animation-delay: 0.05s;
+}
+.krug:nth-child(4) {
+    background-color: lime;
+    animation-delay: 0.02s;
+}
