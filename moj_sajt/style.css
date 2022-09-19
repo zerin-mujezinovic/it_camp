@@ -71,8 +71,8 @@ ul {
     color: #717275;
 }
 .krug {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     background-color: orange;
     border: 0;
     border-radius: 50%;
@@ -95,12 +95,12 @@ li {
 }
 li:hover {
     color: black;
-    transition: 1s;
+    transition: 0.5s;
     cursor: pointer;
 }
 li:hover > .krug{
     opacity: 1;
-    transform: translateY(-15px);
+    transform: translateY(-20px);
     transition: 0.5s;
 }
 .nomad-force {
@@ -512,7 +512,7 @@ textarea:focus {
     border: none;
     color: white;
     background-color: black;
-    margin-left: 230px;
+    margin-left: 170px;
     margin-top: 40px;
     margin-bottom: 100px;
     transition: all 0.5s ease-in-out;
@@ -614,10 +614,10 @@ textarea:focus {
 .ikonice {
     display: inline-block;
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 10%;
+    bottom: 10%;
     color: rgb(96 95 96);
-    font-size: 15px;
+    font-size: 17px;
 }
 .ikonica {
     margin-left: 10px;
@@ -627,4 +627,69 @@ textarea:focus {
 .ikonica:hover {
     color: white;
     cursor: pointer;
+}
+@media only screen and (max-width: 1367px) {
+    .entry-info {
+        left: 30%;
+    }
+    .sticky-container {
+        width: 80%;
+    }
+    ul {
+        position: absolute;
+        right: 13%;
+    }
+    .container-1 {
+        width: 80%;
+    }
+    .container-2 {
+        height: 460px;
+        margin-bottom: 120px;
+    }
+    .info-card {
+        height: 460px;
+    }
+    .info-naslov {
+        margin-top: 30px;
+    }
+    .container-3 {
+        width: 85%;
+        margin: auto;
+    }
+    .portfolio-slika {
+        width: 100%;
+        height: 30%;
+    }
+    .portfolio-slika2 {
+        width: 1200%;
+    }
+    .container-4 {
+        margin-top: 130px;
+        padding: 100px 120px;
+    }
+    .news-img2 {
+        width: 53%;
+    }
+    .news-img1 {
+        width: 95%;
+    }
+    .news-left {
+        margin: 0;
+    }
+    .container-5 {
+        width: 47%;
+        margin-top: 100px;
+    }
+    .email-naslov {
+        margin-left: 75px;
+    }
+    .checkbox-txt {
+        margin-right: 110px;
+    }
+    .treci-chechbox-txt {
+        margin: 0;
+    }
+    .last-div {
+        width: 80%;
+    }
 }

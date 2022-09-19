@@ -23,8 +23,8 @@ body {
     background-color: black;
     position: absolute;
     bottom: 0%;
-    border-bottom: 3px solid yellow;
-    border-top: 3px solid yellow;
+    border-bottom: 5px solid yellow;
+    border-top: 5px solid yellow;
 }
 .linija {
     width: 20px;
@@ -54,7 +54,7 @@ body {
     height: 150px;
     position: absolute;
     left: 10%;
-    top: -73%;
+    top: -76%;
     color: red;
 }
 .tocak {
@@ -83,7 +83,7 @@ body {
 .znak {
     position: absolute;
     right: 48%;
-    top: -30%;
+    top: -34%;
     animation-name: example3;
     animation-duration: 10s;
     animation-iteration-count: infinite;

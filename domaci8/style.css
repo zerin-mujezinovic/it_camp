@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 30vw;
+    /* background-color: gray; */
+    margin: auto;
+    margin-top: 20px;
+    padding: 3px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.card-top {
+    height: 25px;
+    width: 99%;
+    display: flex;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.75);
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 5px;
+}
+.left {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.card2 {
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.75);
+}
+.card2:nth-child(1) {
+    height: 210px;
+    width: 98%;
+    border: 2px solid black;
+    /* margin-bottom: 5px; */
+}
+.card2:nth-child(2) {
+    height: 170px;
+    width: 98%;
+    border: 2px solid black;
+}
+.right {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.card3 {
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.75);
+}
+.card3:nth-child(1) {
+    width: 99%;
+    height: 120px;
+    /* margin-bottom: 5px; */
+    border: 2px solid black;  
+}
+.card3:nth-child(2) {
+    width: 99%;
+    height: 110px;
+    /* margin-bottom: 5px; */
+    border: 2px solid black;  
+}
+.card3:nth-child(3) {
+    width: 99%;
+    height: 140px;
+    border: 2px solid black;   
+}
+.card-bottom {
+    height: 50px;
+    display: flex;
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.75);   
+}

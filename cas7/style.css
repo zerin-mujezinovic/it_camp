@@ -1,0 +1,48 @@
+.container {
+    height: 100px;
+    width: 99vw;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-div {
+    position: relative;
+    align-self: center;
+}
+.ikonica {
+    width: 30px;
+    height: 30px;
+    background-color: purple;
+    font-size: 28px;
+    padding: 5px;
+    color: white;
+    border-radius: 50%;
+    margin: 0;
+}
+.icon-div h1 {
+    position: absolute;
+    left: 110%;
+    top: 5%;
+    margin: 0;
+}
+ul {
+    display: flex;
+    list-style: none;
+    align-self: center;
+}
+ul li {
+    margin: 10px;
+
+}
+button {
+    height: 20px;
+    border: none;
+    align-self: center;
+}
+@media screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+    }
+    .icon-div {
+        
+    }
+}
